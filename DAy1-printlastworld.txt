@@ -1,0 +1,26 @@
+package week1.day1;
+
+public class Lastwordcount {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String S="luffy is still joyboy";
+		int count=0;
+		for(int i=S.length()-1;i>=0;i--)
+		{
+			if(S.charAt(i) == ' ') {
+				break;
+				
+			}else
+			{
+				count++;
+				
+			}
+		}
+		 System.out.println("count of the last world in the given sentence is "+count);
+		
+		
+
+	}
+  
+}
